@@ -1,0 +1,12 @@
+package: github.com/adobe-platform/go-metronome
+import:
+- package: github.com/ChannelMeter/iso8601duration
+- package: github.com/behance/go-logrus
+  version: ^0.6.5
+testImport:
+- package: github.com/onsi/ginkgo
+  version: ^1.3.1
+- package: github.com/onsi/gomega
+  version: ^1.1.0
+  subpackages:
+  - ghttp
